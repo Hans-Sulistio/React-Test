@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+body{
+    background-color: black;
+    
+}
+.nav-item{
+    color:white;
+    transition: all 0.5s ease;
+}
+.nav-item:hover{
+    color:tomato;
+    background-color: white;
+    border-radius: 5%;
+
+}
+#particles{
+    z-index: -10;
+    top: 0;
+    left: 0;
+    position: absolute;
+    
+}
+.jumbotron-style{
+    background-color: rgba(0,0,0,0.5);
+
+}
+.jumbotron{
+    background-color: none;
+}
+#part-generator{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: tomato;
+    width: 100px;
+    height : 100px;
+    transform: translate(50%,50%);
+}
