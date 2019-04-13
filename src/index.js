@@ -4,7 +4,7 @@ import {Route , Link,BrowserRouter as Router} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import About from './Component/about';
-import { Container,Navbar,NavItem,NavLink, Nav, Jumbotron } from 'react-bootstrap';
+import { Container,Navbar,NavItem,Jumbotron } from 'react-bootstrap';
 import * as serviceWorker from './serviceWorker';
 
 
@@ -26,6 +26,9 @@ const routing = (
                 
             </NavItem>
         </Navbar>
+        <Jumbotron>
+            Halo
+        </Jumbotron>
         <div>
             
             <Route exact path="/" component={App}/>
